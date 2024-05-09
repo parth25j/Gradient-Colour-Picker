@@ -1,0 +1,35 @@
+#myButton,#myButton2{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: whitesmoke;
+    font-size: large;
+    cursor: pointer;
+}
+
+#myButton:hover{
+transition: one ease-in-out 2s;    
+ box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #01020e 0 -3px 0 inset;
+transform: translateY(-2px);
+transition:   ease-in-out .5s;
+color: #01020e;
+background-color: lavender;
+font-size: larger;
+font-weight: bold;
+
+}
+
+
+#myButton2:hover{
+transition:   ease-in-out .5s;
+/* animation: two ease-in 1s; */
+box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #01020e 0 -3px 0 inset;
+transform: translateY(-2px);
+background-color: pink;
+color: #01020e;
+font-size: larger;
+font-weight: bold;
+
+}
+
+
